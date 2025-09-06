@@ -2,3 +2,4 @@
 /.venv
 /.vscode
 /cover.pdf
+model/Data/__pycache__/
