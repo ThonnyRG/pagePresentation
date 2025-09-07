@@ -1,5 +1,6 @@
 /.DS_Store
 /.venv
 /.vscode
-/cover.pdf
+/*.pdf
 model/Data/__pycache__/
+model/__pycache__/pdfMerger.cpython-313.pyc
