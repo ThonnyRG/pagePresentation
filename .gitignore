@@ -3,4 +3,5 @@
 /.vscode
 /*.pdf
 model/Data/__pycache__/
-model/__pycache__/pdfMerger.cpython-313.pyc
+model/__pycache__/
+view/__pycache__/
