@@ -6,3 +6,4 @@ model/Data/__pycache__/
 model/__pycache__/
 view/__pycache__/
 view/widgets/__pycache__/
+view/components/__pycache__/blueButton.cpython-313.pyc
