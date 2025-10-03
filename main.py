@@ -7,15 +7,18 @@ from view.pathFiles import pathFiles
 
 
 def main():
-    
+    #Enter yout details
     ActivityName = "Actividad inutil"
     EEName = "Materia Inutil"
     NameUser = "Balatrexis Nava Moya"
     FacilitatorName = "Magdiel Market"
     
+    #Start the sheet generator
     a = pdfCoverGenerator(settings, universityData, ActivityName, EEName, NameUser, FacilitatorName, date.today())
     a.generate()
     
+    #Select your file 
+    #ONLY WORKS WITH PDF FILES
     pdflist = pathFiles.selectDocFiles()
     print(type(pdflist))
     pdflist = list(pdflist)
